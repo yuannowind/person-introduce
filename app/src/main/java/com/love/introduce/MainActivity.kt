@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.Glide
 import com.love.introduce.R
+import com.love.introduce.adapter.SwAdapter
 import com.love.introduce.databinding.ActivityMainBinding
+import com.love.introduce.view.recyclerview.SwipeCardLayoutManager
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding : ActivityMainBinding
@@ -19,8 +21,12 @@ class MainActivity : AppCompatActivity() {
         }
         binding.apply {
             Glide.with(this@MainActivity)
-                .load(R.mipmap.empty_address)
+                .load(R.mipmap.not_found)
                 .into(this.imgGif)
+        }
+        binding.swView.apply {
+            layoutManager = SwipeCardLayoutManager()
+            adapter = SwAdapter(context, emptyList())
         }
     }
 }

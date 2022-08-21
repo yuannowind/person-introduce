@@ -48,4 +48,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:contentDescription="@string/picture" />
+    <com.love.introduce.view.recyclerview.SwipeCardRecyclerView
+        android:id="@+id/sw_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <!--柱形图-->
+    <declare-styleable name="HistogramView">
+        <!--轴线颜色-->
+        <attr name="axisColor" format="color"/>
+        <!--柱形图的颜色-->
+        <attr name="rectColor" format="color"/>
+        <!--柱形图描述文字的颜色-->
+        <attr name="rectDescTextColor" format="color"/>
+        <!--柱形图描述文字的大小-->
+        <attr name="rectTextSize" format="float"/>
+    </declare-styleable>
+    <!--动画文字-->
+    <declare-styleable name="PathAnimTextView">
+        <!--文字颜色-->
+        <attr name="animTextColor" format="color"/>
+        <!--文字大小-->
+        <attr name="animTextSize" format="float"/>
+        <!--文字画笔宽度-->
+        <attr name="animTextStrokWidth" format="float"/>
+        <!--动画文字-->
+        <attr name="animText" format="string"/>
+        <!--动画的速度-->
+        <attr name="animSpeed">
+            <!--快-->
+            <enum name="fast" value="0"/>
+            <!--慢-->
+            <enum name="slow" value="1"/>
+            <!--中速-->
+            <enum name="medium" value="2"/>
+        </attr>
+        <!--字体库的名称-->
+        <attr name="animTextTypeFace" format="string"/>
+        <!--文字行间距-->
+        <attr name="animTextLineMargen" format="float"/>
+    </declare-styleable>
+</resources>

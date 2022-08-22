@@ -26,6 +26,10 @@ public abstract class SwipeCardAdapter<VH extends RecyclerView.ViewHolder> exten
         notifyItemRemoved(position);
     }
 
+    public void setmList(List mList) {
+        this.mList = mList;
+    }
+
     @Override
     public int getItemCount() {
         return mList.size();

@@ -73,7 +73,7 @@ class PathAnimTextView : View {
             mTextLineMargen = ta.getFloat(R.styleable.PathAnimTextView_animTextLineMargen,mTextLineMargen)
         }
         mPaint.strokeWidth = mTextStrokWidth
-        mPaint.color = mTextColor
+        mPaint.color = context.resources.getColor(R.color.black)
         mPaint.textSize = mTextSize
         if(!TextUtils.isEmpty(mTextTypeFace)){
             mPaint.typeface = Typeface.createFromAsset(context.assets, mTextTypeFace)

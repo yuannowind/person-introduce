@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/github/code/person-introduce/app/src/main/res/layout/activity_main.xml" value="0.1559383499546691" />
-        <entry key="..\:/github/code/person-introduce/app/src/main/res/layout/layout_item.xml" value="0.17815049864007254" />
-        <entry key="..\:/github/code/person-introduce/app/src/main/res/layout/self.xml" value="0.1559383499546691" />
+        <entry key="..\:/ProgramFiles/flutter/flutter_work/introduce/app/src/main/res/drawable/self_background.xml" value="0.222" />
+        <entry key="..\:/ProgramFiles/flutter/flutter_work/introduce/app/src/main/res/drawable/title_background.xml" value="0.222" />
+        <entry key="..\:/ProgramFiles/flutter/flutter_work/introduce/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/ProgramFiles/flutter/flutter_work/introduce/app/src/main/res/layout/activity_recycle.xml" value="0.2526041666666667" />
+        <entry key="..\:/ProgramFiles/flutter/flutter_work/introduce/app/src/main/res/layout/layout_item.xml" value="0.11302083333333333" />
+        <entry key="..\:/ProgramFiles/flutter/flutter_work/introduce/app/src/main/res/layout/self.xml" value="0.2" />
+        <entry key="..\:/ProgramFiles/flutter/flutter_work/introduce/app/src/main/res/layout/splash_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/ProgramFiles/flutter/flutter_work/introduce/app/src/main/res/layout/view_item.xml" value="0.2526041666666667" />
       </map>
     </option>
   </component>
